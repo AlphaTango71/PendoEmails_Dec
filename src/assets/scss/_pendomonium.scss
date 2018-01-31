@@ -1,0 +1,37 @@
+h1 {
+    color: $drk-pink;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: $drk-pink;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.caption {
+    font-size: 10px;
+    color: $drk-gray;
+    text-align: center;
+}
+
+.image-row {
+    background-color: $lt-gray;
+    border-top: 1px solid $primary;
+    border-bottom: 1px solid $primary;
+    margin-bottom: 20px;
+}
+
+.headshot {
+    padding-top: 30px;
+}
+
+.highlight-text {
+    color: $primary;
+    font-weight: bold;
+}

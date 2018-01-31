@@ -1,8 +1,6 @@
 @import 'settings';
 @import 'foundation-emails';
-
 @import 'template/template';
-
 //variables
 //------------------------------
 $md-gray: #6A6C75;
@@ -11,98 +9,109 @@ $secondary: #BD1746;
 $drk-pink: #BD1746;
 $drk-gray: #2A2C35;
 $lt-gray: #F4F4F7;
-
+@import 'pendomonium';
 //custom stlyes
 //------------------------------
-
- a.preheader{
-  text-align: center;
-  color: $md-gray;
-  font-size: .8em;
-  padding-top: 10px;
-
-  :visited{
+a.preheader {
+    text-align: center;
     color: $md-gray;
-  }
+    font-size: .8em;
+    padding-top: 10px;
+     :visited {
+        color: $md-gray;
+    }
 }
-.brand-bar{
-  background: $primary;
-  border-bottom: 1px solid white;
-}
-.head-logo{
-  padding-top:15px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
-.border-hero{
-  border-top: 2px solid $primary;
-  border-bottom: 2px solid $primary;
-}
-table.button table td{
-  border: 0px solid $secondary;
-  background: $secondary;
-  border-radius: 4px;
 
-  :hover{
+.brand-bar {
     background: $primary;
-  }
+    border-bottom: 1px solid white;
 }
-table.button.hollow table td{
-  border: 1px solid $secondary;
-  background: $white;
-  color: $secondary;
-  border-radius: 4px;
-  a{
+
+.head-logo {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.border-hero {
+    border-top: 2px solid $primary;
+    border-bottom: 2px solid $primary;
+}
+
+table.button table td {
+    border: 0px solid $secondary;
+    background: $secondary;
+    border-radius: 4px;
+     :hover {
+        background: $primary;
+    }
+}
+
+table.button.hollow table td {
+    border: 1px solid $secondary;
+    background: $white;
     color: $secondary;
     border-radius: 4px;
-  }
-  :hover{
-    background: $primary;
-  }
+    a {
+        color: $secondary;
+        border-radius: 4px;
+    }
+     :hover {
+        background: $primary;
+    }
 }
-.body-copy{
-  color: $drk-gray;
-  font-size: .9em;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 20px;
+
+.body-copy {
+    color: $drk-gray;
+    font-size: .9em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
-.body-copy-second{
-  color: $drk-gray;
-  font-size: .9em;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 50px;
+
+.body-copy-second {
+    color: $drk-gray;
+    font-size: .9em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
 }
-.list-head{
-  color: $drk-gray;
-  font-size: .9em;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+
+.list-head {
+    color: $drk-gray;
+    font-size: .9em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-ul,li{
-  margin-top: 5px;
-  margin-left: 10px;
-  color: $drk-gray;
-  font-size: .9em;
+
+ul,
+li {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: $drk-gray;
+    font-size: .9em;
 }
-.footer{
-  background-color: $md-gray;
+
+.footer {
+    background-color: $md-gray;
 }
-.footer-text{
-  font-size: .7em;
-  color: $lt-gray;
-  text-align: center;
-  margin-top: 10px;
+
+.footer-text {
+    font-size: .7em;
+    color: $lt-gray;
+    text-align: center;
+    margin-top: 10px;
 }
-.footer-image{
-  display: inline-block;
-  padding: 10px;
+
+.footer-image {
+    display: inline-block;
+    padding: 10px;
 }
-.copyright{
-  font-size: .7em;
-  color: $lt-gray;
-  text-align: center;
+
+.copyright {
+    font-size: .7em;
+    color: $lt-gray;
+    text-align: center;
 }
