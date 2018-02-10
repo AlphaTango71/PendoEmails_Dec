@@ -35,3 +35,20 @@ h2 {
     color: $primary;
     font-weight: bold;
 }
+
+.list-head-pendomonium {
+    color: $primary;
+    font-size: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#bullets li {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: $drk-gray;
+    font-weight: 700;
+    font-size: 1em;
+}
