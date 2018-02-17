@@ -17,6 +17,9 @@
     margin-top: 12px;
     margin-bottom: 0;
     padding-bottom: 0;
+    @media screen and (max-width: 260px) {
+        font-size: 9px;
+    }
 }
 
 h1 {
@@ -53,10 +56,21 @@ table.button {
     background-color: black;
 }
 
-.footer-logos {
+.footer-logo-left {
     width: 40%;
     padding-top: 30px;
     display: block;
+    float: right;
+}
+
+.footer-logo-right {
+    width: 40%;
+    padding-top: 35px;
+    display: block;
+    float: left;
+    @media screen and (max-width: 575px) {
+        padding-top: 10px;
+    }
 }
 
 .social {
